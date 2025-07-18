@@ -10,10 +10,18 @@ const WeddingInvitation = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 via-red-50 to-amber-100">
       <Header />
-      <HeroSection />
-      <AboutSection />
-      <PhotoGallery />
-      <CountdownTimer />
+      <div id="home">
+        <HeroSection />
+      </div>
+      <div id="about">
+        <AboutSection />
+      </div>
+      <div id="gallery">
+        <PhotoGallery />
+      </div>
+      <div id="countdown">
+        <CountdownTimer />
+      </div>
       <Footer />
     </div>
   );
