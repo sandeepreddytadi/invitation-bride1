@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <style>
@@ -136,7 +137,7 @@
         /* Invitation Section */
         .invitation-section {
             background: linear-gradient(rgba(139, 69, 19, 0.7), rgba(218, 165, 32, 0.7)), 
-                        url('https://images.unsplash.com/photo-1709979773998-2655b3dfa124?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjB3ZWRkaW5nfGVufDB8fHxyZWR8MTc1MjgwODM1NXww&ixlib=rb-4.1.0&q=85');
+                        url('3.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -203,7 +204,9 @@
         }
 
         .main-title {
-            font-family: 'Playfair Display', serif;
+            transform: rotate(-15deg);
+            display: inline-block;
+            font-family: "Fleur De Leah", cursive;
             font-size: 3rem;
             margin-bottom: 20px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
@@ -256,8 +259,8 @@
 
         /* Bride Section */
         .bride-section {
-            background: linear-gradient(135deg, #8B4513 0%, #CD853F 100%);
-            color: white;
+            background: linear-gradient(135deg, #008080, #967D69);
+            color: #F1EDEE;
         }
 
         .bride-content {
@@ -327,7 +330,8 @@
 
         /* Groom Section */
         .groom-section {
-            background: linear-gradient(135deg, #CD853F 0%, #8B4513 100%);
+            background: linear-gradient(to bottom left, #967D69, #008080);
+
             color: white;
         }
 
@@ -406,7 +410,7 @@
 
         /* Countdown Section */
         .countdown-section {
-            background: linear-gradient(135deg, #8B4513 0%, #DAA520 100%);
+            background: linear-gradient(to bottom, #F1EDEE, #967D69, #008080);
             color: white;
             text-align: center;
         }
@@ -459,7 +463,7 @@
 
         /* Location Section */
         .location-section {
-            background: linear-gradient(135deg, #F5F5DC 0%, #FFFACD 100%);
+            background: linear-gradient(120deg, #967D69, #F1EDEE, #008080);
             color: #8B4513;
         }
 
@@ -525,7 +529,7 @@
             padding: 40px 20px;
             border-radius: 20px;
             backdrop-filter: blur(10px);
-            border: 2px solid rgba(255, 215, 0, 0.3);
+            border: 2px solid rgba(0, 13, 255, 0.3);
         }
 
         .decorative-hearts {
@@ -767,139 +771,14 @@
                         </div>
                     </div>
                     <h1 class="main-title">
-                        <span class="bride-name">Sunanda</span>
-                        <span class="ampersand">&</span>
-                        <span class="groom-name">Raju</span>
+                        <span class="bride-name">Nimmalapudi's</span>
                     </h1>
-                    <p class="invitation-text">cordially invite you to their</p>
-                    <h2 class="ceremony-title">Sacred Wedding Ceremony</h2>
-                    <div class="wedding-details">
-                        <div class="detail-item">
-                            <i class="fas fa-calendar-alt"></i>
-                            <span>AUGUST 17TH, 2025</span>
-                        </div>
-                        <div class="detail-item">
-                            <i class="fas fa-clock"></i>
-                            <span>SUNDAY AT 07:00PM ONWARDS</span>
-                        </div>
-                        <div class="detail-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>N.V.R FUNCTION HALL A/C<br>BESIDE RTC COMPLEX, RAMACHANDRAPURAM</span>
-                        </div>
-                    </div>
+                    <h2 class="ceremony-title">Wedding Ceremony</h2>
                 </div>
             </div>
         </section>
 
-        <!-- Section 2: Bride -->
-        <section id="bride" class="section bride-section">
-            <div class="container">
-                <div class="bride-content">
-                    <div class="section-header">
-                        <h2 class="section-title">The Bride</h2>
-                        <div class="decorative-line"></div>
-                    </div>
-                    <div class="bride-image">
-                        <img src="https://images.unsplash.com/photo-1640744537094-0d5b8da84b01?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwzfHxoaW5kdSUyMHdlZGRpbmd8ZW58MHx8fHJlZHwxNzUyODA4MzM5fDA&ixlib=rb-4.1.0&q=85" alt="Bride Sunanda">
-                        <div class="image-overlay">
-                            <h3>Sunanda</h3>
-                        </div>
-                    </div>
-                    <div class="bride-details">
-                        <h3 class="bride-name">Sunanda</h3>
-                        <p class="family-details">
-                            <i class="fas fa-heart"></i>
-                            D/o N. Rajesh & N. Mangadevi
-                        </p>
-                        <div class="decorative-elements">
-                            <i class="fas fa-flower"></i>
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-flower"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section 3: Groom -->
-        <section id="groom" class="section groom-section">
-            <div class="container">
-                <div class="groom-content">
-                    <div class="section-header">
-                        <h2 class="section-title">The Groom</h2>
-                        <div class="decorative-line"></div>
-                    </div>
-                    <div class="groom-image">
-                        <img src="https://images.pexels.com/photos/5713647/pexels-photo-5713647.jpeg" alt="Groom Raju">
-                        <div class="image-overlay">
-                            <h3>Raju</h3>
-                        </div>
-                    </div>
-                    <div class="groom-details">
-                        <h3 class="groom-name">Raju</h3>
-                        <p class="family-details">
-                            <i class="fas fa-heart"></i>
-                            S/o Apparao & Lakshmi
-                        </p>
-                        <div class="decorative-elements">
-                            <i class="fas fa-flower"></i>
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-flower"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section 4: Wedding Gallery -->
-        <section id="gallery" class="section gallery-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Wedding Gallery</h2>
-                    <div class="decorative-line"></div>
-                </div>
-                <div class="gallery-grid">
-                    <div class="gallery-item" data-image="https://images.unsplash.com/photo-1665960213508-48f07086d49c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjB3ZWRkaW5nJTIwY291cGxlfGVufDB8fHx8MTc1MjgwODM4NHww&ixlib=rb-4.1.0&q=85">
-                        <img src="https://images.unsplash.com/photo-1665960213508-48f07086d49c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjB3ZWRkaW5nJTIwY291cGxlfGVufDB8fHx8MTc1MjgwODM4NHww&ixlib=rb-4.1.0&q=85" alt="Engagement">
-                        <div class="gallery-overlay">
-                            <span>Engagement</span>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-image="https://images.unsplash.com/photo-1722952934708-749c22eb2e58?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjB3ZWRkaW5nJTIwY291cGxlfGVufDB8fHx8MTc1MjgwODM4NHww&ixlib=rb-4.1.0&q=85">
-                        <img src="https://images.unsplash.com/photo-1722952934708-749c22eb2e58?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjB3ZWRkaW5nJTIwY291cGxlfGVufDB8fHx8MTc1MjgwODM4NHww&ixlib=rb-4.1.0&q=85" alt="Pre-Wedding">
-                        <div class="gallery-overlay">
-                            <span>Pre-Wedding</span>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-image="https://images.unsplash.com/photo-1722952934661-dde241aeb591?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjB3ZWRkaW5nJTIwY291cGxlfGVufDB8fHx8MTc1MjgwODM4NHww&ixlib=rb-4.1.0&q=85">
-                        <img src="https://images.unsplash.com/photo-1722952934661-dde241aeb591?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjB3ZWRkaW5nJTIwY291cGxlfGVufDB8fHx8MTc1MjgwODM4NHww&ixlib=rb-4.1.0&q=85" alt="Traditional">
-                        <div class="gallery-overlay">
-                            <span>Traditional</span>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-image="https://images.pexels.com/photos/17493647/pexels-photo-17493647.jpeg">
-                        <img src="https://images.pexels.com/photos/17493647/pexels-photo-17493647.jpeg" alt="Haldi">
-                        <div class="gallery-overlay">
-                            <span>Haldi</span>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-image="https://images.pexels.com/photos/27118152/pexels-photo-27118152.jpeg">
-                        <img src="https://images.pexels.com/photos/27118152/pexels-photo-27118152.jpeg" alt="Mehndi">
-                        <div class="gallery-overlay">
-                            <span>Mehndi</span>
-                        </div>
-                    </div>
-                    <div class="gallery-item" data-image="https://images.pexels.com/photos/27155552/pexels-photo-27155552.jpeg">
-                        <img src="https://images.pexels.com/photos/27155552/pexels-photo-27155552.jpeg" alt="Family">
-                        <div class="gallery-overlay">
-                            <span>Family</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section 5: Countdown -->
+        <!-- Section 2: Countdown -->
         <section id="countdown" class="section countdown-section">
             <div class="container">
                 <div class="section-header">
@@ -926,7 +805,97 @@
                 </div>
                 <div class="save-date">
                     <h3>Save The Date</h3>
-                    <p>August 17th, 2025 at 7:00 PM</p>
+                    <p>August 17th, 2025 from 7:00 PM</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Bride -->
+        <section id="bride" class="section bride-section">
+            <div class="container">
+                <div class="bride-content">
+                    <div class="section-header">
+                        <h2 class="section-title">The Bride</h2>
+                        <div class="decorative-line"></div>
+                    </div>
+                    <div class="bride-image">
+                        <img src="2.jpg" alt="Bride Sunanda">
+                        <div class="image-overlay">
+                            <h3>Sunanda</h3>
+                        </div>
+                    </div>
+                    <div class="bride-details">
+                        <h3 class="bride-name">Sunanda</h3>
+                        <p class="family-details">
+                            D/o Sri Nimmalapudi Seeta Rambabu & Smt. Mangadevi
+                        </p>
+                        <div class="decorative-elements">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Groom -->
+        <section id="groom" class="section groom-section">
+            <div class="container">
+                <div class="groom-content">
+                    <div class="section-header">
+                        <h2 class="section-title">The Groom</h2>
+                        <div class="decorative-line"></div>
+                    </div>
+                    <div class="groom-image">
+                        <img src="1.jpg" alt="Groom Raju">
+                        <div class="image-overlay">
+                            <h3>Raju</h3>
+                        </div>
+                    </div>
+                    <div class="groom-details">
+                        <h3 class="groom-name">Raju</h3>
+                        <p class="family-details">
+                            S/o Sri Morampudi Veera Venkata Satyanarayana (Jammi) & Smt. Subba Lakshmi
+                        </p>
+                        <div class="decorative-elements">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Wedding Gallery -->
+        <section id="gallery" class="section gallery-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Wedding Gallery</h2>
+                    <div class="decorative-line"></div>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="12.jpg" alt="Engagement">
+                        <div class="gallery-overlay">
+                            <span>Engagement</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="4.jpg" alt="Pre-Wedding">
+                        <div class="gallery-overlay">
+                            <span>Pre-Wedding</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="11.jpg" alt="Traditional">
+                        <div class="gallery-overlay">
+                            <span>Traditional</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="8.jpg" alt="Musical">
+                        <div class="gallery-overlay">
+                            <span>Musical</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -946,18 +915,14 @@
                         <p><i class="fas fa-clock"></i> Sunday at 7:00 PM onwards</p>
                     </div>
                     <div class="map-container">
-                        <div class="map-placeholder">
-                            <i class="fas fa-map-marker-alt" style="font-size: 3rem; margin-bottom: 20px;"></i>
-                            <br>
-                            <p>N.V.R Function Hall A/C<br>Beside RTC Complex<br>Ramachandrapuram</p>
-                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.763752826781!2d82.03477527515255!3d16.838072183958484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a379208faad8d3d%3A0x3ab07ce2fd73757!2sN%20V%20R%20Function%20Hall!5e0!3m2!1sen!2sin!4v1753412560851!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Section 7: Thank You -->
-        <section id="thankyou" class="section thankyou-section">
+        <section id="thankyou" class="section thankyou-section" style="background: url('5.jpg') center/cover no-repeat;">
             <div class="container">
                 <div class="thankyou-content">
                     <div class="decorative-hearts">
@@ -965,8 +930,8 @@
                         <i class="fas fa-heart"></i>
                         <i class="fas fa-heart"></i>
                     </div>
-                    <h2 class="section-title">Thank You</h2>
-                    <p class="thankyou-message">
+                    <h2 class="section-title" style="color: #FFD700;">Thank You</h2>
+                    <p class="thankyou-message" style="color:#F1EDEE">
                         Your presence at our wedding will be the greatest gift of all. 
                         We look forward to celebrating this special day with you!
                     </p>
@@ -975,7 +940,7 @@
                         <i class="fas fa-heart"></i>
                         <span class="groom-name">Raju</span>
                     </div>
-                    <p class="wedding-tagline">Together forever, starting August 17th, 2025</p>
+                    <p class="wedding-tagline">Celebrating love, laughter, and happily ever after.</p>
                 </div>
             </div>
         </section>
@@ -987,21 +952,20 @@
             <i class="fas fa-heart"></i>
             <span>Invite</span>
         </a>
-        <a href="#bride" class="nav-item" data-section="bride">
-            <i class="fas fa-female"></i>
-            <span>Bride</span>
+        <a href="#countdown" class="nav-item" data-section="countdown">
+            <i class="fas fa-clock"></i>
+            <span>Timer</span>
         </a>
-        <a href="#groom" class="nav-item" data-section="groom">
-            <i class="fas fa-male"></i>
-            <span>Groom</span>
+        <a href="#bride" class="nav-item" data-section="bride">
+            <span class="couple-icons">
+                <i class="fas fa-female"></i>
+                <i class="fas fa-male"></i>
+            </span>
+            <span>Couple</span>
         </a>
         <a href="#gallery" class="nav-item" data-section="gallery">
             <i class="fas fa-images"></i>
             <span>Gallery</span>
-        </a>
-        <a href="#countdown" class="nav-item" data-section="countdown">
-            <i class="fas fa-clock"></i>
-            <span>Timer</span>
         </a>
         <a href="#location" class="nav-item" data-section="location">
             <i class="fas fa-map-marker-alt"></i>
