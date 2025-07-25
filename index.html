@@ -1032,6 +1032,26 @@
                 });
             });
 
+            // Handle scroll to update active navigation
+            window.addEventListener('scroll', function() {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (window.pageYOffset >= sectionTop - 200) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navItems.forEach(item => {
+                    item.classList.remove('active');
+                    if (item.getAttribute('data-section') === current) {
+                        item.classList.add('active');
+                    }
+                });
+            });
+        }
+
         // Countdown timer functionality
         function initializeCountdown() {
             const weddingDate = new Date('2025-08-17T19:00:00').getTime();
